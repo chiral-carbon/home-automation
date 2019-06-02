@@ -9,3 +9,9 @@ The implementation will be of a simple home automation system using Arduino UNO,
 If the pairing is successful, the LED becomes stable.
 
 Now, in the app, set the different keys for different loads and their corresponding value that must be transmitted when that key is pressed.
+
+
+To test the program, use the remote serial monitor on the Arduino IDE. To practically run it, download any Bluetooth Controller application on your device and connect it to the *HC-05* bluetooth module in your circuit. Once connected, in the app interface, type:
+
+- A-D to turn the respective device connected to the 4-channel relay ON
+- a-d to turn them OFF 
